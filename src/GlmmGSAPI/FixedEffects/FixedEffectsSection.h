@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGSAPI_FIXEDEFFECTS_FIXEDEFFECTSSECTION_H
+#define GLMMGSAPI_FIXEDEFFECTS_FIXEDEFFECTSSECTION_H
 
 #include "../Standard.h"
 #include "../Section.h"
@@ -23,3 +24,5 @@ namespace GlmmGSAPI
 		};
 	}
 }
+
+#endif

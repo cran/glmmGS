@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_REFERENCECOUNTER_H
+#define UTILITIES_REFERENCECOUNTER_H
 
 #include "New.h"
 #include <stdlib.h>
@@ -57,3 +58,5 @@ namespace Utilities
 			++(*this->counter);
 	}
 }
+
+#endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_STANDARD_H
+#define GLMMGS_STANDARD_H
 
 #include "../Utilities/Utilities.h"
 #include "../Utilities/Exceptions/Exceptions.h"
@@ -18,3 +19,5 @@ namespace GlmmGS
 	using namespace Utilities::Math;
 	using namespace Utilities::Statistics;
 }
+
+#endif

@@ -397,7 +397,7 @@ glmmGS.AddResponse = function(response, family, data, env)
 glmmGS = function(formula, family, data = NULL, covariance.models = NULL, control = glmmGS.Control())
 {
 	# Gets environment of calling function
-	env = parent.frame();
+	env = environment(formula);
 	
 	# Convert formula and family into text
 	formula = as.character(formula);

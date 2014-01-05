@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_WORKING_GLOBAL_BLOCK_H
+#define GLMMGS_RANDOMEFFECTS_WORKING_GLOBAL_BLOCK_H
 
 #include "../../../Standard.h"
 #include "../../../Variables/IVariable.h"
@@ -38,3 +39,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

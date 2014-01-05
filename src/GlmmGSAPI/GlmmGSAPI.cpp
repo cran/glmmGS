@@ -41,6 +41,8 @@ namespace GlmmGSAPI
 	{
 		if (this->sections.IsEmpty() == false)
 			throw Exception("Invalid call: Begin");
+		this->ForceEnd(); // This should not be necessary, but it is better to
+						  // clean up twice rather than none
 		this->sections.Push(Pointer<Section>(new(bl) Section(*this)));
 	}
 
@@ -56,6 +58,7 @@ namespace GlmmGSAPI
 		this->offset.Reset();
 		this->fixed_effects.Free();
 		this->random_effects.Free();
+		this->fixed_intercept = false;
 	}
 
 	void GlmmGSAPI::ForceEnd()
@@ -67,6 +70,7 @@ namespace GlmmGSAPI
 		this->offset.Reset();
 		this->fixed_effects.Free();
 		this->random_effects.Free();
+		this->fixed_intercept = false;
 	}
 
 	void GlmmGSAPI::BeginResponse(WeakString<const char> family)

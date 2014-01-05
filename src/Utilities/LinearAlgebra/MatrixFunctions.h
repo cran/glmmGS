@@ -1,3 +1,6 @@
+#ifndef UTILITIES_LINEARALGEBRA_MATRIXFUNCTIONS_H
+#define UTILITIES_LINEARALGEBRA_MATRIXFUNCTIONS_H
+
 #include "../Utilities.h"
 
 namespace Utilities 
@@ -30,3 +33,5 @@ namespace Utilities
 		TriangularMatrix<double> Symmetric(const Matrix<double> & A);
 	}
 }
+
+#endif

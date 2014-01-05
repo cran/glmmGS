@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGSAPI_SECTION_H
+#define GLMMGSAPI_SECTION_H
 
 #include "Standard.h"
 
@@ -45,3 +46,5 @@ namespace GlmmGSAPI
 		virtual void AddSparsePrecisionModel(const LDL::SparseMatrix<double> & precision);
 	};
 }
+
+#endif

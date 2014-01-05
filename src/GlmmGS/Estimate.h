@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_ESTIMATE_H
+#define GLMMGS_ESTIMATE_H
 
 namespace GlmmGS
 {
@@ -32,3 +33,5 @@ namespace GlmmGS
 		return this->variance;
 	}
 }
+
+#endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_FIXEDEFFECTS_WORKING_STRATIFIED_COEFFICIENTS_H
+#define GLMMGS_FIXEDEFFECTS_WORKING_STRATIFIED_COEFFICIENTS_H
 
 #include "../../../Standard.h"
 #include "../../../Estimate.h"
@@ -50,3 +51,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

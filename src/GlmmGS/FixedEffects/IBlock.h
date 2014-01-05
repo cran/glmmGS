@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_FIXEDEFFECTS_IBLOCK_H
+#define GLMMGS_FIXEDEFFECTS_IBLOCK_H
 
 #include "../Standard.h"
 #include "Working/IBlock.h"
@@ -21,3 +22,5 @@ namespace GlmmGS
 		};
 	}
 }
+
+#endif

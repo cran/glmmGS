@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_CONTAINER_H
+#define UTILITIES_CONTAINER_H
 
 #include "Exceptions/Assertions.h"
 #include "Exceptions/InvalidArgumentException.h"
@@ -195,3 +196,5 @@ namespace Utilities
 		return * this;
 	}
 }
+
+#endif

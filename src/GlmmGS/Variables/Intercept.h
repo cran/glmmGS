@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_UTILITIES_VARIABLES_INTERCEPT_H
+#define GLMMGS_UTILITIES_VARIABLES_INTERCEPT_H
 
 #include "../Standard.h"
 #include "IVariable.h"
@@ -100,3 +101,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

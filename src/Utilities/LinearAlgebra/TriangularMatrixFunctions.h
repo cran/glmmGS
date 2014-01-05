@@ -1,3 +1,6 @@
+#ifndef UTILITIES_LINEARALGEBRA_TRIANGULARMATRIXFUNCTIONS_H
+#define UTILITIES_LINEARALGEBRA_TRIANGULARMATRIXFUNCTIONS_H
+
 #include "../Utilities.h"
 
 namespace Utilities 
@@ -26,3 +29,5 @@ namespace Utilities
 		int TotalSize(const TriangularMatrix<Vector<double> > & x);
 	}
 }
+
+#endif

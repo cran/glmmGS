@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_WORKING_STRATIFIED_COEFFICIENTS_H
+#define GLMMGS_RANDOMEFFECTS_WORKING_STRATIFIED_COEFFICIENTS_H
 
 #include "../../../Standard.h"
 #include "CovarianceModels/ICovarianceModel.h"
@@ -32,7 +33,7 @@ namespace GlmmGS
 					const Vector<Vector<double> > & Values() const;
 
 					// Methods
-					int Update(const Vector<Vector<double> > & jacobian, Pointer<CovarianceModels::ICovarianceModel> covariance_model, Comparer comparer);
+					int Update(const Vector<Vector<double> > & jacobian, const Pointer<CovarianceModels::ICovarianceModel> covariance_model, Comparer comparer);
 				};
 
 				// Properties
@@ -57,3 +58,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

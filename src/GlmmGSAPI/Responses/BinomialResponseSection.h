@@ -1,4 +1,5 @@
-#pragma once
+#ifndef RESPONSES_GLMMGSAPI_RESPONSES_BINOMIALRESPONSESECTION_H
+#define RESPONSES_GLMMGSAPI_RESPONSES_BINOMIALRESPONSESECTION_H
 
 #include "../Standard.h"
 #include "../Section.h"
@@ -27,3 +28,5 @@ namespace GlmmGSAPI
 		};
 	}
 }
+
+#endif

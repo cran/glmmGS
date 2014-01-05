@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_FIXEDEFFECTS_STRATIFIED_BLOCK_H
+#define GLMMGS_FIXEDEFFECTS_STRATIFIED_BLOCK_H
 
 #include "../../Standard.h"
 #include "../../Variables/IVariable.h"
@@ -30,3 +31,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

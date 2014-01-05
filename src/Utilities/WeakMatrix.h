@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_WEAKMATRIX_H
+#define UTILITIES_WEAKMATRIX_H
 
 #include "Exceptions/Assertions.h"
 #include "WeakVector.h"
@@ -89,3 +90,5 @@ namespace Utilities
 		return WeakVector<TYPE>(this->ptr + this->ncols * i, this->ncols);
 	}
 }
+
+#endif

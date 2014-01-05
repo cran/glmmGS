@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_WEAKSTRING_H
+#define UTILITIES_WEAKSTRING_H
 
 #include <memory.h>
 
@@ -30,3 +31,5 @@ namespace Utilities
 		return memcmp(this->ptr, ptr, this->length) == 0;
 	}
 }
+
+#endif

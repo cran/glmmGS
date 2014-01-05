@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_WORKING_COVARIANCEMODEL_ICOVARIANCEMODEL_H
+#define GLMMGS_RANDOMEFFECTS_WORKING_COVARIANCEMODEL_ICOVARIANCEMODEL_H
 
 #include "../../../../Standard.h"
 #include "../../../../Estimate.h"
@@ -45,3 +46,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

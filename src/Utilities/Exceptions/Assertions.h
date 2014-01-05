@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_EXCEPTIONS_ASSERTIONS_H
+#define UTILITIES_EXCEPTIONS_ASSERTIONS_H
 
 #include "InvalidArgumentException.h"
 #include "InvalidOperationException.h"
@@ -18,3 +19,5 @@
 #define _VALIDATE_ARGUMENT(expression) _VALIDATE(expression, Utilities::Exceptions::InvalidArgumentException())
 #define _ASSERT_OPERATION(expression) _ASSERT(expression, Utilities::Exceptions::InvalidOperationException())
 #define _VALIDATE_OPERATION(expression) _VALIDATE(expression, Utilities::Exceptions::InvalidOperationException())
+
+#endif

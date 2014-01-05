@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RESPONSES_POISSONRESPONSE_H
+#define GLMMGS_RESPONSES_POISSONRESPONSE_H
 
 #include "../Standard.h"
 #include "IResponse.h"
@@ -27,3 +28,5 @@ namespace GlmmGS
 		};
 	}
 }
+
+#endif

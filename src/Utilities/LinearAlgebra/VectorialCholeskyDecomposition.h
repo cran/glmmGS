@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_LINEARALGEBRA_VECTORIALCHOLESKYDECOMPOSITION_H
+#define UTILITIES_LINEARALGEBRA_VECTORIALCHOLESKYDECOMPOSITION_H
 
 #include "../Utilities.h"
 
@@ -36,3 +37,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

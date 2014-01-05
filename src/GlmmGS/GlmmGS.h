@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_GLMMGS_H
+#define GLMMGS_GLMMGS_H
 
 #include "Standard.h"
 #include "Responses/IResponse.h"
@@ -62,3 +63,5 @@ namespace GlmmGS
 		return this->iterations;
 	}
 }
+
+#endif

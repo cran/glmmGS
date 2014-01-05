@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_WEAKFACTOR_H
+#define UTILITIES_WEAKFACTOR_H
 
 #include "Exceptions/Assertions.h"
 
@@ -43,3 +44,5 @@ namespace Utilities
 		return this->levels[obs];
 	}
 }
+
+#endif

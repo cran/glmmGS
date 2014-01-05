@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_TRIANGULARMATRIX_H
+#define UTILITIES_TRIANGULARMATRIX_H
 
 #include "Container.h"
 #include "Exceptions/Assertions.h"
@@ -141,3 +142,5 @@ namespace Utilities
 		return (row * (row + 1)) >> 1;
 	}
 }
+
+#endif

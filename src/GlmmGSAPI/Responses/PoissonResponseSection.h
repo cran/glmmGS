@@ -1,4 +1,5 @@
-#pragma once
+#ifndef RESPONSES_GLMMGSAPI_RESPONSES_POISSONRESPONSESECTION_H
+#define RESPONSES_GLMMGSAPI_RESPONSES_POISSONRESPONSESECTION_H
 
 #include "../Standard.h"
 #include "../Section.h"
@@ -26,3 +27,5 @@ namespace GlmmGSAPI
 		};
 	}
 }
+
+#endif

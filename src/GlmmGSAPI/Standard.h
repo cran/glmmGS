@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGSAPI_
+#define GLMMGSAPI_
 
 // Utilities
 #include "../Utilities/Utilities.h"
@@ -57,3 +58,5 @@ namespace GlmmGSAPI
 	using namespace Utilities::Exceptions;
 	using namespace Utilities::IO;
 }
+
+#endif

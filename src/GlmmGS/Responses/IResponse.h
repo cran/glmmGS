@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RESPONSES_IRESPONSE_H
+#define GLMMGS_RESPONSES_IRESPONSE_H
 
 #include "../Standard.h"
 
@@ -23,3 +24,5 @@ namespace GlmmGS
 		};
 	}
 }
+
+#endif

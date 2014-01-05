@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_OFFSETS_IOFFSET_H
+#define GLMMGS_OFFSETS_IOFFSET_H
 
 #include "../Standard.h"
 
@@ -19,3 +20,5 @@ namespace GlmmGS
 		};
 	}
 }
+
+#endif

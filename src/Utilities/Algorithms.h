@@ -1,5 +1,7 @@
-#pragma once
-#include <memory.h>
+#ifndef UTILITIES_ALGORITHM_H
+#define UTILITIES_ALGORITHM_H
+
+#include <string.h>
 
 namespace Utilities
 {
@@ -48,3 +50,5 @@ namespace Utilities
 		return a > b ? a : b;
 	}
 }
+
+#endif

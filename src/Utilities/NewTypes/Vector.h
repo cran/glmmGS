@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_NEWTYPES_VECTOR_H
+#define UTILITIES_NEWTYPES_VECTOR_H
 
 #include "../Exceptions/Assertions.h"
 #include "../New.h"
@@ -113,3 +114,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

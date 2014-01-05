@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_IO_PRINT_H
+#define UTILITIES_IO_PRINT_H
 
 #include "../Vector.h"
 #include "../TriangularMatrix.h"
@@ -62,3 +63,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

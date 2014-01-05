@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_STACK_H
+#define UTILITIES_STACK_H
 
 #include "New.h"
 #include "Exceptions/Exceptions.h"
@@ -112,3 +113,5 @@ namespace Utilities
 			this->Pop();
 	}
 }
+
+#endif

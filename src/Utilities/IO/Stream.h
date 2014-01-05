@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_IO_
+#define UTILITIES_IO_
 
 #include <stdio.h>
 
@@ -9,3 +10,5 @@ namespace Utilities
 		extern FILE * stream;
 	}
 }
+
+#endif

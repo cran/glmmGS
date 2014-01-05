@@ -1,3 +1,6 @@
+#ifndef UTILITIES_LINEARALGEBRA_VECTORFUNCTIONS_H
+#define UTILITIES_LINEARALGEBRA_VECTORFUNCTIONS_H
+
 #include "../Utilities.h"
 
 namespace Utilities 
@@ -26,3 +29,5 @@ namespace Utilities
 		double MinAbs(const Vector<Vector<double> > & v);
 	}
 }
+
+#endif

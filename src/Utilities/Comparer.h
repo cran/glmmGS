@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_COMPARER_H
+#define UTILITIES_COMPARER_H
 
 #include "Vector.h"
 
@@ -47,3 +48,5 @@ namespace Utilities
 	}
 
 }
+
+#endif

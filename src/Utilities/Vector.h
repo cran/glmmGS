@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_VECTOR_H
+#define UTILITIES_VECTOR_H
 
 #include "Container.h"
 #include "Exceptions/Assertions.h"
@@ -159,3 +160,5 @@ namespace Utilities
 		this->size = 0;
 	}
 }
+
+#endif

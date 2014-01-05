@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_EXCEPTIONS_MAXITERATIONSEXCEPTIONS_H
+#define UTILITIES_EXCEPTIONS_MAXITERATIONSEXCEPTIONS_H
 
 #include "NumericException.h"
 
@@ -15,3 +16,5 @@ namespace Utilities
 		};
 	}
 }
+
+#endif

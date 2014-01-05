@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_EXCEPTIONS_EXCEPTION_H
+#define UTILITIES_EXCEPTIONS_EXCEPTION_H
 
 namespace Utilities
 {
@@ -23,3 +24,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

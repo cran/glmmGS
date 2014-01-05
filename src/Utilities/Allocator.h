@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_ALLOCATOR_H
+#define UTILITIES_ALLOCATOR_H
 
 #include "New.h"
 #include <new>
@@ -71,3 +72,5 @@ namespace Utilities
 			ptr->~TYPE();
 	}	
 }
+
+#endif

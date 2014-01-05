@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_EXCEPTIONS_EXCEPTIONS_H
+#define UTILITIES_EXCEPTIONS_EXCEPTIONS_H
 
 // Generic
 #include "Exception.h"
@@ -16,3 +17,5 @@
 
 // Assertions
 #include "Assertions.h"
+
+#endif

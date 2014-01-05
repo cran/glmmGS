@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGSAPI_EXCEPTIONS_H
+#define GLMMGSAPI_EXCEPTIONS_H
 
 #include "../../Utilities/Exceptions/Exception.h"
 
@@ -47,3 +48,5 @@ namespace GlmmGSAPI
 		};
 	}
 }
+
+#endif

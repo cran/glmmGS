@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_VECTORALGORITHMS_H
+#define UTILITIES_VECTORALGORITHMS_H
 
 #include "Algorithms.h"
 #include "Vector.h"
@@ -55,3 +56,5 @@ namespace Utilities
 		return true;
 	}
 }
+
+#endif

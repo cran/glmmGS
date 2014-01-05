@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_NEWTYPES_ARRAYCAST_H
+#define UTILITIES_NEWTYPES_ARRAYCAST_H
 
 #include "Cast.h"
 #include "Array.h"
@@ -37,3 +38,5 @@ namespace Utilities
 		};
 	}
 }
+
+#endif

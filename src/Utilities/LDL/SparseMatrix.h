@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_LDL_SPARSEMATRIX_H
+#define UTILITIES_LDL_SPARSEMATRIX_H
 
 #include "../NewTypes/NewTypes.h"
 #include "Internal/ldl.h"
@@ -97,3 +98,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

@@ -21,7 +21,10 @@
 		and precision models represent the global precision parameters.
   	}
   	\item{\dots}{
-    	optional arguments containing information about the precision or covariance structure
+    	optional arguments containing information about the precision or covariance structure.
+    	If the type is \code{identity}, no optional arguments are required;
+    	if the type is \code{precision}, the optional argument is a precision matrix 
+    	of either R \code{matrix} type or \code{\link{glmmGS.SparseMatrix}} type.
   	}
 }
 
@@ -52,7 +55,7 @@
 
 \seealso{
 	%% ~~objects to See Also as \code{\link{help}}, ~~~
-	\code{\link{glmmGS}}
+	\code{\link{glmmGS}}, \code{\link{glmmGS.SparseMatrix}}
 }
 \examples{
 # Set number of columns

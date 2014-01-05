@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_NEWTYPES_NEWTYPES_H
+#define UTILITIES_NEWTYPES_NEWTYPES_H
 
 // Modifiers
 #include "External.h"
@@ -13,3 +14,5 @@
 
 // Global functions
 #include "Globals.h"
+
+#endif

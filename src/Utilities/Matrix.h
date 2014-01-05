@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_MATRIX_H
+#define UTILITIES_MATRIX_H
 
 #include "Container.h"
 #include "Exceptions/Assertions.h"
@@ -127,3 +128,5 @@ namespace Utilities
 		Container<TYPE>::Reallocate(this->nrows * this->ncols);
 	}
 }
+
+#endif

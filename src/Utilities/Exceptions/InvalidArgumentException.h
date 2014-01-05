@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_EXCEPTIONS_INVALIDARGUMENTEXCEPTION_H
+#define UTILITIES_EXCEPTIONS_INVALIDARGUMENTEXCEPTION_H
 
 #include "Exception.h"
 
@@ -16,3 +17,5 @@ namespace Utilities
 		};
 	}
 }
+
+#endif

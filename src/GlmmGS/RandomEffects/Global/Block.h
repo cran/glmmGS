@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_GLOBAL_BLOCK_H
+#define GLMMGS_RANDOMEFFECTS_GLOBAL_BLOCK_H
 
 #include "../../Standard.h"
 #include "CovarianceModels/ICovarianceModel.h"
@@ -31,3 +32,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

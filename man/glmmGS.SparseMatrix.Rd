@@ -27,8 +27,11 @@
 \details{
 	%%  ~~ If necessary, more details than the description above ~~
 	The list returned by this function defines a column-sparse matrix. The data structure
-	is the same one used by the LDL algorithms written by Tim Davis at 
-	the University of Florida (see reference).
+	is the same one used by the AMD algorithms written by 
+	Timothy A. Davis, Patrick R. Amestoy, Iain S. Duff, and the LDL algorithms 
+	written by Timothy A. Davis	(see Reference). The \code{\link{glmmGS}} package
+	implements the AMD and LDL algorithms to perform sparse LDL decompositions of 
+	sparse precision matrices. 
 }
 \value{
 	%%  ~Describe the value returned
@@ -40,6 +43,8 @@
 }
 \references{
 	%% ~put references to the literature/web site here ~
+	\url{http://www.cise.ufl.edu/research/sparse/amd/}
+
 	\url{http://www.cise.ufl.edu/research/sparse/ldl/}
 }
 \author{
@@ -54,6 +59,7 @@
 
 \seealso{
 	%% ~~objects to See Also as \code{\link{help}}, ~~~
+	\code{\link{glmmGS.CovarianceModel}}
 }
 \examples{
 

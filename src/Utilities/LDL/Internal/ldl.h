@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_LDL_INTERNAL_LDL_H
+#define UTILITIES_LDL_INTERNAL_LDL_H
 
 #include "../../NewTypes/Array.h"
 
@@ -93,3 +94,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

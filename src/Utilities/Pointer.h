@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_POINTER_H
+#define UTILITIES_POINTER_H
 
 #include "ReferenceCounter.h"
 
@@ -158,3 +159,5 @@ namespace Utilities
 		return this->ptr;
 	}
 }
+
+#endif

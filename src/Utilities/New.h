@@ -1,4 +1,6 @@
-#pragma once
+#ifndef UTILITIES_NEW_H
+#define UTILITIES_NEW_H
+
 #include <stdlib.h>
 
 namespace Utilities
@@ -12,3 +14,5 @@ void * operator new(size_t size, const Utilities::BLTag &);
 void operator delete(void * ptr, const Utilities::BLTag &);
 void * operator new [](size_t size, const Utilities::BLTag &);
 void operator delete [] (void * ptr, const Utilities::BLTag &);
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef UTILITIES_NEWTYPES_FUNCTIONS_H
+#define UTILITIES_NEWTYPES_FUNCTIONS_H
+
 #include "../Exceptions/Assertions.h"
 #include "Vector.h"
 #include "Matrix.h"
@@ -33,3 +36,5 @@ namespace Utilities
 		void Copy(NewTypes::Vector<double> & dst, const Utilities::TriangularMatrix<Utilities::Vector<double> > & src);
 	}
 }
+
+#endif

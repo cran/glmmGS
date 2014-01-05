@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGSAPI_RANDOMEFFECTS_FIXEDEFFECTS_STRATIFIED_BLOCKSECTION_H
+#define GLMMGSAPI_RANDOMEFFECTS_FIXEDEFFECTS_STRATIFIED_BLOCKSECTION_H
 
 #include "../../Standard.h"
 #include "../../Section.h"
@@ -31,3 +32,5 @@ namespace GlmmGSAPI
 		}
 	}
 }
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef UTILITIES_NEWTYPES_GLOBALS_H
+#define UTILITIES_NEWTYPES_GLOBALS_H
+
 #include "../Exceptions/Assertions.h"
 #include "Vector.h"
 
@@ -24,3 +27,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

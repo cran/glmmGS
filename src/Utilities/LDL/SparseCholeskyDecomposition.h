@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_LDL_SPARSECHOLESKYDECOMPOSITION_H
+#define UTILITIES_LDL_SPARSECHOLESKYDECOMPOSITION_H
 
 #include "../Utilities.h"
 #include "../NewTypes/NewTypes.h"
@@ -45,3 +46,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

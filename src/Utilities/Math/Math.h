@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_MATH_MATH_H
+#define UTILITIES_MATH_MATH_H
 
 #include <float.h>
 #include <math.h>
@@ -63,3 +64,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

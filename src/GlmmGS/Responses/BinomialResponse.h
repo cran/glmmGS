@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RESPONSES_BINOMIALRESPONSE_H
+#define GLMMGS_RESPONSES_BINOMIALRESPONSE_H
 
 #include "../Standard.h"
 #include "IResponse.h"
@@ -28,3 +29,5 @@ namespace GlmmGS
 		};
 	}
 }
+
+#endif

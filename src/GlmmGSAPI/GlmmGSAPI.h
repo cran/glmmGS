@@ -1,3 +1,6 @@
+#ifndef GLMMGSAPI_GLMMGSAPI_H
+#define GLMMGSAPI_GLMMGSAPI_H
+
 #include "Standard.h"
 #include "Section.h"
 
@@ -79,3 +82,5 @@ namespace GlmmGSAPI
 
 	extern GlmmGSAPI the_api;
 }
+
+#endif

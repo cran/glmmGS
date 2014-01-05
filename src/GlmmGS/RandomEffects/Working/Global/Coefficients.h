@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_WORKING_GLOBAL_COEFFICIENTS_H
+#define GLMMGS_RANDOMEFFECTS_WORKING_GLOBAL_COEFFICIENTS_H
 
 #include "../../../Standard.h"
 #include "CovarianceModels/ICovarianceModel.h"
@@ -54,3 +55,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

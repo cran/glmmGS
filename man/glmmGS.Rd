@@ -47,13 +47,13 @@
 	\item{data}{
 		an optional data frame, list or environment (or object coercible by as.data.frame 
 		to a data frame) containing the variables in the model. 
-		If not found in data, the variables are taken from environment(formula), 
+		If not found in \code{data}, the variables are taken from \code{environment(formula)}, 
 		typically the environment from which \code{glmmGS} is called.
 	}
 	\item{covariance.models}{
 		an optional list or environment containing the covariance models referenced 
-		in the formula. If not found in covariance.models, the covariance models are taken from 
-		environment(formula), typically the environment from which \code{glmmGS} is called.
+		in the formula. If not found in \code{covariance.models}, the covariance models are taken from 
+		\code{environment(formula)}, typically the environment from which \code{glmmGS} is called.
 	}
 	\item{control}{
 		a list of parameters for controlling the fitting process. The list is returned
@@ -62,9 +62,16 @@
 }
 \details{
 	%%  ~~ If necessary, more details than the description above ~~
-	If a global intercept is specified, then each stratified intercept is constrained to
-	have zero mean. In all the other cases where multiple intercepts are specified, if the fitting 
-	algorithm converges, then the values of the intercept are determined up to a random constant.
+	If a fixed intercept is specified (either a global intercept or 
+	a stratified intercept), then each stratified random intercept is constrained to have a zero mean. 
+	If both global and stratified fixed intercepts are specified, then their fitted values 
+	are determined up to a random constant. This is because the Gauss-Seidel algorithm displays
+	best convergence properties	by updating each fixed intercept component-wise
+	without imposing any constraints, such as setting the value of the intercept associated 
+	with the first level of a factor equal to zero. (Notice that the same does not hold for
+	random intercepts, where removing the overall mean is necessary to boost converge.) 
+	A simple post-processing of the fitted value can be used to adjust the offset 
+	of the estimated fixed intercepts.
 }
 \value{
 	%%  ~Describe the value returned
@@ -139,6 +146,7 @@
 
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
+\code{\link{glmmGS.CovarianceModel}}, \code{\link{glmmGS.Control}} 
 }
 \examples{
 	# Set data dimension: 

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_IO_BASICPRINT_H
+#define UTILITIES_IO_BASICPRINT_H
 
 #include <stdio.h>
 #include "Stream.h"
@@ -27,3 +28,5 @@ namespace Utilities
 		}
 	}
 }
+
+#endif

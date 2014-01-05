@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_UTILITIES_VARIABLES_IVARIABLE_H
+#define GLMMGS_UTILITIES_VARIABLES_IVARIABLE_H
 
 #include "../Standard.h"
 
@@ -70,3 +71,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

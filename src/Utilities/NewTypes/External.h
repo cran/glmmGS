@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_NEWTYPES_EXTERNAL_H
+#define UTILITIES_NEWTYPES_EXTERNAL_H
 
 namespace Utilities
 {
@@ -15,3 +16,5 @@ namespace Utilities
 		};
 	}
 }
+
+#endif

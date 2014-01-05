@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_UTILITIES_VARIABLES_WEAKVECTORVARIABLE_H
+#define GLMMGS_UTILITIES_VARIABLES_WEAKVECTORVARIABLE_H
 
 #include "../Standard.h"
 #include "IVariable.h"
@@ -157,3 +158,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

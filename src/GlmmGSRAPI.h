@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGSRAPI_H
+#define GLMMGSRAPI_H
 
 extern "C"
 {
@@ -54,3 +55,5 @@ extern "C"
 	void GlmmGSRAPI_GetCovarianceComponentsErrors(double * values, const int * size);
 	void GlmmGSRAPI_GetIterations(int * iterations);
 }
+
+#endif

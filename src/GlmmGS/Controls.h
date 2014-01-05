@@ -1,4 +1,6 @@
-#pragma once
+#ifndef GLMMGS_CONTROLS_H
+#define GLMMGS_CONTROLS_H
+
 #include "../Utilities/Comparer.h"
 
 namespace GlmmGS
@@ -31,3 +33,5 @@ namespace GlmmGS
 		return this->maxiter;
 	}
 }
+
+#endif

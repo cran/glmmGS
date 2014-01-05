@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_WEAKVECTOR_H
+#define UTILITIES_WEAKVECTOR_H
 
 #include "Exceptions/Exception.h"
 #include "Exceptions/Assertions.h"
@@ -64,3 +65,5 @@ namespace Utilities
 		return this->ptr[i];
 	}
 }
+
+#endif

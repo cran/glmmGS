@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_GLOBAL_COVARIANCEMODEL_PRECISIONMODEL_H
+#define GLMMGS_RANDOMEFFECTS_GLOBAL_COVARIANCEMODEL_PRECISIONMODEL_H
 
 #include "../../../Standard.h"
 #include "../../Working/Global/CovarianceModels/ICovarianceModel.h"
@@ -31,3 +32,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef GLMMGS_RANDOMEFFECTS_WORKING_STRATIFIED_COVARIANCEMODELS_FUNCTIONS_H
+#define GLMMGS_RANDOMEFFECTS_WORKING_STRATIFIED_COVARIANCEMODELS_FUNCTIONS_H
+
 #include "../../../../Standard.h"
 
 namespace GlmmGS
@@ -30,3 +33,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

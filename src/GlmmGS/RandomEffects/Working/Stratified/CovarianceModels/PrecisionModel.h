@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GLMMGS_RANDOMEFFECTS_WORKING_STRATIFIED_COVARIANCEMODELS_PRECISIONMODEL_H
+#define GLMMGS_RANDOMEFFECTS_WORKING_STRATIFIED_COVARIANCEMODELS_PRECISIONMODEL_H
 
 #include "../../../../Standard.h"
 #include "../../../../Estimate.h"
@@ -39,3 +40,5 @@ namespace GlmmGS
 		}
 	}
 }
+
+#endif

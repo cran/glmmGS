@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_BUFFER_H
+#define UTILITIES_BUFFER_H
 
 #include "Container.h"
 
@@ -37,3 +38,5 @@ namespace Utilities
 		return this->length;
 	}
 }
+
+#endif
